@@ -1,6 +1,7 @@
 import React from 'react';
+
 import Alert from './alert/alert.jsx';
-import "./style.css";
+
 
 export default class App extends React.Component {
 
@@ -11,7 +12,9 @@ export default class App extends React.Component {
     render() {
         return(
             <div>
-                <Alert />
+                <Alert summary="Sucesso!" type="success">
+                    Alerta personalizado
+                </Alert>
             </div>
         );
     }

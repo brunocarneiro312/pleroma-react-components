@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --inline --hot"
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "prod": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -14,14 +15,22 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-webpack": "0.0.6",
     "css-loader": "^1.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "imports-loader": "^0.8.0",
+    "jquery": "^3.3.1",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "lodash": "^4.17.10",
     "mini-css-extract-plugin": "^0.4.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-router": "^4.3.1",
     "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
